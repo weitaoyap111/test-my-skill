@@ -9,3 +9,6 @@ q3.py
 
 q4.py
 - https://www.facebook.com/groups/python/posts/1460108491496377/
+
+q5.py
+- https://www.facebook.com/groups/python/posts/1490231908484035/
