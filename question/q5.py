@@ -57,7 +57,7 @@ def less_10k_number_conv(number, lists=number_to_eng_list):
     else:
         get_4th_digits = math.floor((number - (number % 1000)) / 1000)
         get_last_3_digits = number - get_4th_digits * 1000
-        return lists[get_4th_digits] + " thousand" + (" and " + less_thousand_number_conv(get_last_3_digits) if get_last_3_digits != 0 else "")
+        return lists[get_4th_digits] + " thousand" + (" " + less_thousand_number_conv(get_last_3_digits) if get_last_3_digits != 0 else "")
 
 for x in range(0, 10000):
     print(str(x) + ": " + get_all_number(x))
