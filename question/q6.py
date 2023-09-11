@@ -3,13 +3,13 @@ import math
 triangle_record = []
 
 def get_result_c(a, b):
-    c = math.sqrt(a**2 + b**2)
-    return int(c) if c % 1 == 0 else -1
+    result = math.sqrt(a**2 + b**2)
+    return int(result) if result % 1 == 0 else -1
 
 max_value = 1001
 for x in range(1, max_value):
-    flag = True
     for y in range(1, x):
+        flag = True
         value = get_result_c(x, y)
         if value < max_value:
             if value != -1:
