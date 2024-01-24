@@ -15,3 +15,6 @@ q5.py
 
 q6.py
 - https://www.facebook.com/groups/python/posts/1495428851297674/
+
+q7.py
+- https://www.facebook.com/groups/python/posts/1571814960325729/
